@@ -12,7 +12,7 @@
 -- FROM Employee
 -- WHERE salary < (SELECT MAX(salary) FROM Employee);
 
--- Approach 2: DENSE_RANK (preferred — handles ties, scales to Nth highest)
+-- Approach 2: DENSE_RANK (preferred — handles ties, scales to Nth highest) 
 SELECT (
     SELECT DISTINCT salary
     FROM (
