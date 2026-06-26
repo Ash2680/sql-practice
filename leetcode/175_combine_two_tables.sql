@@ -4,7 +4,6 @@
 -- Difficulty: Easy
 -- Language: MS SQL Server
 -- Topics: LEFT JOIN, NULL handling
--- Approach: LEFT JOIN ensures all persons appear even without a matching address — city and state return NULL if no address exists
 
 select 
   person.firstName, 
